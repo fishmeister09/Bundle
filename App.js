@@ -86,7 +86,7 @@ export default ({}) => {
     GoogleSignin.configure({
       scopes: ['email'], // what API you want to access on behalf of the user, default is email and profile
       webClientId:
-        '381359598703-i1mt26akh8v03ofh6e24a5kalkg7mjkm.apps.googleusercontent.com', // client ID of type WEB for your server (needed to verify user ID and offline access)
+        '', // client ID of type WEB for your server (needed to verify user ID and offline access)
       offlineAccess: true, // if you want to access Google API on behalf of the user FROM YOUR SERVER
       // forceCodeForRefreshToken: true,
     });
